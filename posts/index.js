@@ -6,6 +6,7 @@ app.use(bodyParser.json());
 
 
 const posts = {};
+//comment
 app.get('/posts', (req, res) => {
     res.send(posts);
 });
